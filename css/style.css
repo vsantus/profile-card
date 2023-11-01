@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Oxanium:wght@300;400;700&family=Rubik&family=Secular+One&display=swap');
+
+
+:root{
+ --text-color: hsl(227, 10%, 46%);
+ --background-color: hsl(224, 79%, 63%);
+ --fundo-container: white
+}
+
+
+h2 {
+    font-size: 16px;
+
+}
+
+img {
+   border-radius: 50px;
+   margin-top: 15px;
+   margin-left: 100px;
+   margin-right: -100px;
+}
+
+.idade{  
+    color:var(--text-color);
+}
+
+.cidade{
+    color:var(--text-color);
+}
+
+.bio {
+   margin-top: 10px;
+   text-align: center;
+  
+}
+
+.container{
+    font-family: 'Kumbh Sans', Arial;
+    border-radius: 10px;
+    background-color: var(--fundo-container);
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.filho{
+    margin-top: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-top: 2px rgb(185, 185, 185, 0.5) solid; 
+}
+
+.numeros {
+    margin-top: 15px;
+    width: 300px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+
+
+.infos {
+    color:var(--text-color);
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+} 
+
+@media (min-width: 320px) {
+    .container{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+
+}
+  
+
