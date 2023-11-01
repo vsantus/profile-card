@@ -1,4 +1,4 @@
-# Projetinho feito em um dos exercícios do curso Dev Quest treinando comandos de Flex-Box
+# Projetinho feito em um dos exercícios do curso Dev Quest treinando comandos de Flex-Box,
 ## Treinando comandos de Flex-Box
 
 ### Profile-Card 
